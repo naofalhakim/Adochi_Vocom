@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_action_name"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_donasi"
+            android:icon="@drawable/ic_menu_donasi"
+            android:title="Donasi" />
+        <item
+            android:id="@+id/nav_adobsi"
+            android:icon="@drawable/ic_menu_adobsi"
+            android:title="Adopsi" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

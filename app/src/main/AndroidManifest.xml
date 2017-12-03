@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.motionlaboratory.adochi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".TransaksiActivity"
+            android:label="Progress"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Notication"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name=".AdopsiFragment2_PilAnak"
+            android:label="ADOCHI"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".AnakDetailActivity"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".UploadTransaksi"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".ChatList" />
+        <activity
+            android:name=".InfoantiAsuhanActivity"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".ChatRoom" />
+        <activity
+            android:name=".InkubasiAdopsi"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".InkubasiProses"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PenyelesaianActivity"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity android:name=".FeddbackActivity"
+            android:label="       ADOCHI"
+            android:theme="@style/AppTheme2"
+            >
+        </activity>
+    </application>
+
+</manifest>

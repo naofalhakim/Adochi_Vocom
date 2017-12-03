@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_penyelesaian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.motionlaboratory.adochi.PenyelesaianActivity">
+
+    <customfont.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hintcolor"
+        android:text="Penyelesaian"
+        android:gravity="center|top"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <customfont.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Keterangan : \n"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/hitam"
+                />
+
+            <customfont.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="1. Setelah masa inkubasi selesai, akan di tentukan apakah calon anak akan resmi menjadi anak dari calon orang tua, atau kembali ke panti asuhan karena seuatu hal. \n\n 2. Kepengurusan surat terkait legalitas adopsi anak tidak bisa diproses melalui sistem kami. \n"
+                android:textColor="@color/hitam"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="fill"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <customfont.MyButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proses Berhasil"
+                android:id="@+id/btnBerhasil"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/textColor"
+                android:background="@drawable/rounded"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+            <customfont.MyButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proses Gagal"
+                android:id="@+id/btnGagal"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/textColor"
+                android:background="@drawable/rounded"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/time5"
+        android:background="@color/textColor"
+        android:layout_gravity="bottom"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        >
+
+        <customfont.MyButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROSES PENYELESAIAN"
+            android:textColor="@color/textColor"
+            android:background="@color/btnColor"
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_selesai"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Adochi</string>
+    <string name="title_activity_menu">ADOCHI</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="lokasi_array">
+        <item>Bandung</item>
+        <item>Yogyakarta</item>
+        <item>Malang</item>
+        <item>Jakarta</item>
+    </string-array>
+
+    <string name="dummy_section_text">Text</string>
+
+    <string name="nameerror">Masukkan nama yang benar</string>
+    <string name="emailerror">Masukkan email yang benar</string>
+    <string name="title_activity_penyelesaian">PenyelesaianActivity</string>
+
+</resources>

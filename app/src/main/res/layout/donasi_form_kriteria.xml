@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adopsi_form_kriteria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/textColor"
+    tools:context="com.motionlaboratory.adochi.BerandaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/pantimalang"
+        android:layout_gravity="top|center_horizontal"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        >
+
+        <customfont.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donasi"
+            android:textColor="@color/hintcolor"
+            android:textSize="7pt"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <customfont.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp."
+                android:textSize="12pt"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:background="@color/Mycolor1"
+                >
+
+                <customfont.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Nominal"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="8pt"
+                    android:background="@null"
+                    android:id="@+id/et_donasi"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:id="@+id/rg_kategori"
+            >
+
+            <RadioButton
+                android:text="Umum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd_umum"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="Pendidikan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd_pendidikan"
+                android:layout_weight="1" />
+
+        </RadioGroup>
+
+        <customfont.MyButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONASI"
+            android:id="@+id/btn_donasi"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:background="@drawable/rounded"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    <!--<customfont.MyTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Keterangan Proses Donasi"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--/>-->
+
+    <!--<customfont.MyTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Anda Dapat mengirimkan donasi anda ke Rekening kami ( xxxxxxx )"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--/>-->
+
+    <!--<customfont.MyTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Yang kemudian nanti akan kami alokasikan dana tersebut ke Panti yang membutuhkan"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--/>-->
+
+</LinearLayout>

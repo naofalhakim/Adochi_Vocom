@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adopsi_form_kriteria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Mycolor1"
+    android:orientation="vertical"
+    tools:context="com.motionlaboratory.adochi.BerandaFragment"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <customfont.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KRITERIA"
+                android:textColor="#595857"
+                android:textSize="12pt"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                />
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/form_kriteria"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp">
+
+                <customfont.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Umur"
+                    android:textSize="8pt"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/textColor"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <customfont.MyEditText
+                        android:id="@+id/et_umur"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Umur"
+                        android:textSize="8pt"
+                        android:inputType="text|number"
+                        android:layout_marginLeft="20dp"
+                        android:textColorHint="@color/hintcolor"
+                        android:background="@null"
+                    />
+
+                    </LinearLayout>
+
+                    <customfont.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Kelamin"
+                        android:layout_marginTop="15dp"
+                        android:textSize="8pt"
+                        />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioGroup
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/rd_gender"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:text="Laki - Laki"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/rd_laki" />
+
+                                <RadioButton
+                                    android:text="PEREMPUAN"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/rd_perempuan" />
+
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical"
+                        >
+
+                        <customfont.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lokasi"
+                            android:textSize="8pt"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:background="@color/textColor"
+                            android:id="@+id/combo_daerah"
+                            android:drawSelectorOnTop="true"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp"
+                        >
+
+                        <customfont.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kriteria"
+                            android:textSize="8pt"
+                            />
+
+                        <customfont.MyEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:paddingLeft="10dp"
+                            android:inputType="textMultiLine"
+                            android:ems="10"
+                            android:textSize="8pt"
+                            android:hint="Kriteria"
+                            android:id="@+id/et_kriteria"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/textColor"/>
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                >
+
+                <customfont.MyButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_submit_kriteria"
+                    android:textColor="@color/textColor"
+                    android:text="REQUEST"
+                    android:background="@color/btnColor"
+                    android:layout_gravity="bottom"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

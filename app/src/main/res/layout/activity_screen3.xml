@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_marginTop="200px"
+        >
+
+        <customfont.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEGAL"
+            android:textColor="@color/textColor"
+            android:textSize="16pt"
+            android:textAlignment="center"
+            />
+
+        <customfont.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="8pt"
+            android:layout_marginTop="12px"
+            android:text="Proses adobsi legal sesuai dengan"
+            android:textAlignment="center"
+            />
+        <customfont.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UU No.3 Tahun 2006"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screen3"
+            android:layout_marginTop="120px"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

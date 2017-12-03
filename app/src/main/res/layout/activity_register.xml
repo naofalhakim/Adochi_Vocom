@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/MyColor"
+    tools:context="com.motionlaboratory.adochi.RegisterActivity">
+
+    <customfont.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/textColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="30dp"
+        >
+
+        <customfont.MyEditText
+            android:id="@+id/et_no_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. KTP"
+            android:inputType="number"
+            android:textSize="8pt"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:background="@null"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <customfont.MyEditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Pengguna"
+            android:textSize="8pt"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <customfont.MyEditText
+            android:id="@+id/et_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:textSize="8pt"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <customfont.MyEditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="8pt"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <customfont.MyEditText
+            android:id="@+id/et_pass_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passowrd"
+            android:textSize="8pt"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <customfont.MyEditText
+            android:id="@+id/et_pass_in_core"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ulangi Password"
+            android:textSize="8pt"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <customfont.MyButton
+        android:id="@+id/btn_daftar_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="DAFTAR"
+        android:layout_gravity="center"
+        android:textColor="@color/textColor"
+        android:background="@drawable/rounded"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

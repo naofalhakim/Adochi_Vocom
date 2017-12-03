@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyColor"
+    android:orientation="vertical"
+    tools:context="com.motionlaboratory.adochi.SplashActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_marginTop="80dp"
+        />
+
+    <customfont.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADOCHI"
+        android:textSize="16pt"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"/>
+
+    <customfont.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adoption and Donation for"
+        android:textSize="10pt"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"/>
+
+
+    <customfont.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Children"
+        android:textSize="10pt"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"/>
+
+
+    <customfont.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_marginTop="160dp"
+        android:text="LOADING..."
+        android:textAlignment="center"
+        android:textColor="@color/textColor"/>
+
+</LinearLayout>

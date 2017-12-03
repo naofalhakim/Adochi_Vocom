@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/MyColor</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
